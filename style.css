@@ -1,0 +1,60 @@
+body {
+    color: #268278;
+/* Changed color from #28897f to #268278 so that the contrast ratio is 4.5 and passes AA. */
+    background-color: #fcfcfc;
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    color: #E40073;
+/* Changed color from #f7567c to #E40073 so that the contrast ratio is 4.5 and passes AA. */
+    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #268278;
+    color: #268278;
+/* Changed border-top and color from #28897f to #268278 so that the contrast ratio is 4.5 and passes AA. */
+    text-align: center;
+}
+
+hr:after {
+    content: "ꕥ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #fcfcfc;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+    letter-spacing: 3px;
+    font-size: 30px
+/* Increased the font size of all h2 to 30px so that it is easier for users to identify these headings and read them. */
+}
+
+#donation {
+    color: #E40073;
+/* Changed color from #f7567c to #E40073 so that the contrast ratio is 4.5 and passes AA. */
+}
+
+/* All color changes follow WCAG 2.0 guidelines for contrast accessibility. */
+
+h5 {
+    text-decoration: line-through;
+}
+
+address {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px
+/* Increased the font-size of the paragraph text for better readability. */
+}
